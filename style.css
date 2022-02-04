@@ -1,0 +1,83 @@
+body {
+    background-image: url("./immagini/background.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenuto{
+    padding: 40px;
+width: 70vw;
+height: 80vh;
+background-color: black;
+opacity: 0.5;
+margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: green;
+}
+
+nav {
+    background-color: green;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.menu li {
+    background-color: white;
+    height: 20px;
+}
+
+.menu li a {
+    color: black;
+}
+
+ul.utente {
+    list-style-type: square;
+    padding-inline-start: 17px;
+}
+
+.gino {
+    width: 200px;
+    height: 20px;
+    background-color: orange;
+}
+
+.mike {
+    width: 400px;
+    height: 20px;
+    background-color: green;
+}
+
+.fede {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+}
+ 
